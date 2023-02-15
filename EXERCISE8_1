@@ -1,0 +1,36 @@
+public class EXERCISE8_1 {
+    private int  km; 
+    private int speed; 
+    private int hours;
+    private int min;  
+   
+
+
+    public EXERCISE8_1(int km, int speed){
+        this.km = km; 
+        this.speed=speed; 
+    }
+
+    public int getKm(){
+        return km;
+    }
+
+    public int getHours(){
+        return speed; 
+    }
+
+    public int computeHours(){
+        return hours= getKm()/getHours(); 
+    }
+
+    
+    public int computeminutes(){
+       
+        return min = 60/getHours(); 
+   
+    }
+    public void display(){
+        System.out.printf("%d : %d", computeHours(), computeminutes()); 
+    }
+    
+}
