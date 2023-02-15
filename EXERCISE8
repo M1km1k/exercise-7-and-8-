@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class EXERCISE8 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); 
+        int speed; 
+        int km; 
+
+        System.out.print("Enter kms: "); 
+        km = input.nextInt(); 
+        System.out.print("Enter Speed: "); 
+        speed = input.nextInt(); 
+
+        EXERCISE8_1 j1 = new EXERCISE8_1(km, speed); 
+        j1.display();
+    }
+}
