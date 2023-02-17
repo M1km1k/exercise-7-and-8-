@@ -1,4 +1,4 @@
-public class EXERCISE8_1 {
+public class Kilometers {
     private int  km; 
     private int speed; 
     private int hours;
@@ -6,7 +6,7 @@ public class EXERCISE8_1 {
    
 
 
-    public EXERCISE8_1(int km, int speed){
+    public Kilometers(int km, int speed){
         this.km = km; 
         this.speed=speed; 
     }
